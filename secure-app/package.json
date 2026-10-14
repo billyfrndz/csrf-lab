@@ -1,0 +1,9 @@
+{
+  "name": "csrf-secure-demo",
+  "version": "1.0.0",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "crypto": "^1.0.1",
+    "express": "^4.19.2"
+  }
+}

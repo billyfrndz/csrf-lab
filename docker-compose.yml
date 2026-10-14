@@ -1,0 +1,14 @@
+services:
+  vulnerable-service:
+    build: ./vulnerable-app
+    container_name: debian-csrf-vulnerable
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+
+  secure-service:
+    build: ./secure-app
+    container_name: debian-csrf-secure
+    ports:
+      - "3001:3001"
+    restart: unless-stopped
